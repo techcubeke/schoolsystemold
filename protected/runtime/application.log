@@ -569,3 +569,14 @@ Stack trace:
 REQUEST_URI=/eleve/staff/view.php
 HTTP_REFERER=http://localhost:8080/eleve/staff/view.php
 ---
+2014/07/29 14:50:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Neptune".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('Neptune')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('Neptune')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dormroom/Neptun...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/dormroom/Neptune
+HTTP_REFERER=http://localhost:8080/eleve/dormroom/create
+---
