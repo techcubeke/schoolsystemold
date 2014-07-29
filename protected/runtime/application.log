@@ -1,0 +1,571 @@
+2014/07/29 10:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/view.php
+---
+2014/07/29 10:04:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/schoolinfo/view
+---
+2014/07/29 10:08:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/schoolinfo/view
+HTTP_REFERER=http://localhost:8080/eleve/site/index
+---
+2014/07/29 10:09:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/schoolinfo/view
+HTTP_REFERER=http://localhost:8080/eleve/site/index
+---
+2014/07/29 10:09:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('_view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('_view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/_vie...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/_view.php
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo
+---
+2014/07/29 10:17:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/schoolinfo/view
+---
+2014/07/29 10:18:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/schoolinfo/view
+---
+2014/07/29 10:18:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "manage".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('manage')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('manage')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/mana...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/manage
+---
+2014/07/29 10:18:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "manage.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('manage.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('manage.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/mana...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/manage.php
+---
+2014/07/29 10:18:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/upda...')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/schoolinfo/update
+---
+2014/07/29 10:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('update.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('update.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/upda...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/update.php
+---
+2014/07/29 10:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "schoolinfos/update.php".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfos/upd...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/schoolinfos/update.php
+---
+2014/07/29 10:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfos/update.php".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfos/update.php
+---
+2014/07/29 10:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/update.php".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/update.php
+---
+2014/07/29 10:19:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('_view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('_view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/_vie...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/_view.php
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/update.php
+---
+2014/07/29 10:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('_view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('_view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/_vie...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/_view.php
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/update.php
+---
+2014/07/29 10:19:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo/_view.php
+---
+2014/07/29 10:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view.php".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view.php
+---
+2014/07/29 10:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/
+---
+2014/07/29 10:20:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/
+---
+2014/07/29 10:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/
+---
+2014/07/29 10:20:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/view
+---
+2014/07/29 10:20:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/view
+---
+2014/07/29 10:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/view
+---
+2014/07/29 10:21:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/view
+---
+2014/07/29 10:21:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view.php".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view.php
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/view
+---
+2014/07/29 10:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view.php".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view.php
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/view.php
+---
+2014/07/29 10:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/schoolinfo/view.php".' in C:\wamp\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view/schoolinfo...')
+#1 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/eleve/view/schoolinfo/view.php
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/view.php
+---
+2014/07/29 10:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/view.php
+HTTP_REFERER=http://localhost:8080/eleve/view/schoolinfo/view.php
+---
+2014/07/29 10:21:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/view.php
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo/view.php
+---
+2014/07/29 10:21:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/schoolinfo/view.php
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo/view.php
+---
+2014/07/29 10:22:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/view/abou...')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/staff/view/about
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo
+---
+2014/07/29 10:22:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/view/abou...')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/staff/view/about
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo
+---
+2014/07/29 10:23:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/view/abou...')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/staff/view/about
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo
+---
+2014/07/29 10:23:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/view/view')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/staff/view/view
+HTTP_REFERER=http://localhost:8080/eleve/staff/view/about
+---
+2014/07/29 10:23:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/view/view')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/staff/view/view
+HTTP_REFERER=http://localhost:8080/eleve/staff/view/view
+---
+2014/07/29 10:23:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view...')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/schoolinfo/view/view
+HTTP_REFERER=http://localhost:8080/eleve/staff/view/view
+---
+2014/07/29 10:23:29 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view...')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/schoolinfo/view/view
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo/view/view
+---
+2014/07/29 10:24:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\Yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('schoolinfo/view...')
+#10 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/eleve/schoolinfo/view/view
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo/view/view
+---
+2014/07/29 10:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "0".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('0')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('0')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/0/view.ph...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/staff/0/view.php
+HTTP_REFERER=http://localhost:8080/eleve/schoolinfo/view/view
+---
+2014/07/29 10:24:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "0".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('0')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('0')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/0/view.ph...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/staff/0/view.php
+HTTP_REFERER=http://localhost:8080/eleve/staff/0/view.php
+---
+2014/07/29 10:24:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "0".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('0')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('0')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/0/view.ph...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/staff/0/view.php
+HTTP_REFERER=http://localhost:8080/eleve/staff/0/view.php
+---
+2014/07/29 10:24:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "0".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('0')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('0')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/0/view.ph...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/staff/0/view.php
+HTTP_REFERER=http://localhost:8080/eleve/staff/0/view.php
+---
+2014/07/29 10:24:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "0".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('0')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('0')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/0/view.ph...')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/staff/0/view.php
+HTTP_REFERER=http://localhost:8080/eleve/staff/0/view.php
+---
+2014/07/29 10:24:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/view.php')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/staff/view.php
+HTTP_REFERER=http://localhost:8080/eleve/staff/0/view.php
+---
+2014/07/29 10:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/view.php')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/staff/view.php
+HTTP_REFERER=http://localhost:8080/eleve/staff/view.php
+---
+2014/07/29 10:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view.php".' in C:\wamp\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\Yii\framework\web\CController.php(270): CController->missingAction('view.php')
+#1 C:\wamp\Yii\framework\web\CWebApplication.php(282): CController->run('view.php')
+#2 C:\wamp\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('staff/view.php')
+#3 C:\wamp\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\eleve\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/eleve/staff/view.php
+HTTP_REFERER=http://localhost:8080/eleve/staff/view.php
+---
